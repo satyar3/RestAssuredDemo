@@ -38,8 +38,7 @@ public class PostAPITest extends TestBase {
 		then().
 			assertThat().
 			contentType(ContentType.JSON).
-			body("status", equalTo("ok"));
-			
+			body("status", equalTo("ok"));		
 		
 	}
 
