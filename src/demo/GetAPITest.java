@@ -26,7 +26,7 @@ public class GetAPITest extends TestBase {
 		given().
 			param("location", "-33.8670522,151.1957362").
 			param("radius", "500").
-			param("key", prop.getProperty("key")).
+			param("key", prop.getProperty("key")).log().all().
 			// header("username","test").
 			// header("password","test123").
 			// cookie("test","test").
